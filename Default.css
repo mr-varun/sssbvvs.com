@@ -1,0 +1,86 @@
+﻿
+.NavBar {
+    min-height: 1%;
+    position: relative;
+}
+
+    .NavBar ul {
+        list-style: none;
+        margin: 0;
+        height: 35px;
+        border-radius: 15px;
+    }
+
+    .NavBar ul li {
+        width: 160px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        float: left;
+        border-radius: 15px;
+        position: relative;
+    }
+
+        .NavBar ul li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            border-radius: 15px;
+        }
+
+        .NavBar ul ul {
+            background-color: white;
+            position: absolute;
+            display: block;
+            border-radius: 15px;
+        }
+
+            .NavBar ul ul li {
+                background-color: white;
+                border-radius: 15px;
+            }
+
+.menuDiv {
+    box-shadow: black 1px 1px 5px;
+    width: 100%;
+    min-height: 2%;
+    height: 35px;
+    overflow: unset;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #824c01, #bd8501);
+    position: relative;
+}
+.menuDiv2line {
+    box-shadow: black 1px 1px 5px;
+    width: 100%;
+    min-height: 2%;
+    height: 70px;
+    overflow: unset;
+    background-image: linear-gradient(to bottom, #bd8501 2%, white );
+    position: relative;
+    transition: all 0.2s ease;
+}
+.menuDiv3line {
+    box-shadow: black 1px 1px 5px;
+    width: 100%;
+    min-height: 2%;
+    height: 105px;
+    overflow: unset;
+    background-image: linear-gradient(to bottom, #bd8501 2%, white );
+    position: relative;
+    transition: all 0.2s ease;
+}
+.menuDiv4line {
+    box-shadow: black 1px 1px 5px;
+    width: 100%;
+    min-height: 2%;
+    height: 140px;
+    overflow: unset;
+    background-image: linear-gradient(to bottom, #bd8501 2%, white );
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+
+
+

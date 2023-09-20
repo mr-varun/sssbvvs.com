@@ -1,0 +1,212 @@
+﻿/* Set default font family and size for GridView */
+.gridview {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Set background color for header row */
+.gridview th {
+    background-color: #f2f2f2;
+}
+
+/* Set text alignment and padding for cells */
+.gridview td {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add hover effect to rows */
+.gridview tbody tr:hover {
+    background-color: #e6e6e6;
+}
+
+/* Add border to cells and collapse table borders */
+.gridview td, .gridview th {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+/*#region textbox */
+
+.input-label {
+    position: absolute;
+    top: 40%;
+    left: 25px;
+    transform: translateY(-50%);
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 16px;
+    color: #aaa;
+    transition: all 0.2s ease-in-out;
+}
+
+.input-label-active {
+    top: 0px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: dimgrey;
+}
+.ErrorLabel 
+{
+    font-family: Calibri;
+    color: red;
+    font-size:12px;
+}
+
+
+.input-field {
+    display: block;
+    outline: none;
+    border: none;
+    border-bottom: solid;
+    border-bottom-color: #bd8501;
+    border-bottom-width: 3px;
+    width: 100%;
+    height: 80%;
+    font-family: Cambria sans-serif;
+    font-size: 20px;
+   padding:2px;
+    border-left: none;
+    border-left-color: #bd8501;
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.2s ease-in-out;
+}
+
+.input-field-active {
+    display: block;
+    outline: none;
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #bd8501;
+    font-family: Cambria sans-serif;
+    font-size: 18px;
+    padding:3px;
+    border-left: none;
+    border-left-color: #bd8501;
+    box-shadow: 5px 5px 15px gray;
+}
+.ui_Image 
+{
+    margin :10px;
+    padding:10px;
+    box-shadow : 1px 1px 10px gray;
+    width:100px;
+    height:120px;
+}
+
+.textbox-div {
+    position: relative;
+    max-width: 300px;
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin: 10px 20px;
+    padding: 3PX;
+    display: block;
+}
+.Image-Div {
+    position: relative;
+    max-width: 300px;
+    width: 200px;
+   
+    float: left;
+    
+   
+    display: block;
+}
+
+/*#endregion */
+
+/*#region Button */
+
+.button {
+    background-color: #bd8501;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+   
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 2px solid #bd8501;
+}
+
+    .button1:hover {
+        background-color: #bd8501;
+        color: white;
+    }
+
+/*#endregion */
+
+.alerts {
+    position:sticky;
+    top:20px;
+    padding: 15px;
+  margin:auto;
+    color: white;
+    z-index: 2;
+   
+    width: 40%;
+    opacity: 100%;
+   
+    transition: all 5s;
+   
+}
+
+  .fade-out {
+        opacity: 0%;
+         top:-10px;
+    }
+.alertDanger {
+    padding: 15px;
+    background-color: orangered;
+    color: black;
+    z-index: 2;
+    border-radius: 15px;
+    margin: 15px;
+    width:100%;
+    opacity: 100%;
+    box-shadow: 5px 5px 10px 1px #888888;
+    transition: all 10s;
+}
+.alertSuccess {
+    padding: 15px;
+    background-color: lawngreen;
+    color: black;
+    z-index: 2;
+    border-radius: 15px;
+    margin: 15px;
+    width: 100%;
+    opacity: 100%;
+    box-shadow: 5px 5px 10px 1px #888888;
+    transition: all 10s;
+}
+.alertInfo {
+    padding: 15px;
+    background-color: gold;
+    color: black;
+    z-index: 2;
+    border-radius: 15px;
+    margin: 15px;
+    width: 100%;
+    opacity: 100%;
+    box-shadow: 5px 5px 10px 1px #888888;
+    transition: all 10s;
+}
+
+
+
+  
+ 

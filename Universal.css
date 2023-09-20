@@ -1,0 +1,19 @@
+﻿.CenterDiv {
+    width: 70%;
+    height: 100%;
+   position:relative;
+    margin: 30px auto 30px auto;
+    padding:30px;
+    box-shadow: 1px 1px 10px gray;
+}
+    .CenterDiv.ul 
+    {
+        margin:auto;
+        width:95%;
+
+    }
+        .CenterDiv.ul.li 
+        {
+            width:100%;
+            margin:auto;
+        }
